@@ -28,6 +28,7 @@ const BlogPage = ({ data }) => {
 
 }
 
+//ask if this is passing data into the sub pages ie slug and id 
 export const name_querey = graphql`
     query MyQuery {
     allMdx(sort: { frontmatter: { date: DESC } }) {
