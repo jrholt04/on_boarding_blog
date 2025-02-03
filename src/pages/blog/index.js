@@ -5,7 +5,7 @@ import Seo from '../../componets/seo.js'
 import{
   navLinks,
   navLinkItem,
-  navLinkText,     
+  navLinkText,        
 } from '/Users/jacksonholt/Developer/awesomeInc/on_boarding_blog/src/componets/layout.module.css'
 
 const BlogPage = ({ data }) => {
